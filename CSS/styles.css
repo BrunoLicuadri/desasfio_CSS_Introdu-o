@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+:root{
+    --main-red: #F03C42;
+    --main-blue: #222374;
+    --light-grey: ##CCCCCC;
+
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--main-red);
+    height: 100px;
+
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    color: #fff;
+
+}
+
+.header-insta-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-insta-content a{
+    padding-left: 10px;
+    width: 85px;
+    height: 19px;
+}
+
+.header-content img{
+    height: 30px;
+    width: 30px;
+}
+
+header h1{
+    height: 25px;
+    width: 99px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+#get-to-know-us{
+    background-color: var(--main-blue);
+}
+
+#get-to-know-us h2{
+    color: #ffff;
+}
+
+#get-to-know-us h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    width: 357px;
+    height: 44px;
+    padding-top: 20px;
+
+}
+
+.fitness{
+    background-color: var(--light-grey);
+    width: 960px;
+    height: 127px;
+    border-radius: 8px;
+}
+
