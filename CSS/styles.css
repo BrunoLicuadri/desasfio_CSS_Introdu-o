@@ -4,8 +4,9 @@
 :root{
     --main-red: #F03C42;
     --main-blue: #222374;
-    --light-grey: ##CCCCCC;
-
+    --light-grey: #CCCCCC;
+    --basic-white: #ffff;
+    --main-black: #000000;
 }
 
 *{
@@ -23,27 +24,44 @@ a, a:hover{
 header{
     background-color: var(--main-red);
     height: 100px;
-
+    width: 1200px;
+    display: flex;
+    align-items: center;
 }
 
 .header-content{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    color: #fff;
-
+    justify-content: space-between;
 }
 
 .header-insta-content {
     display: flex;
     align-items: center;
+    padding-right: 20px;
 }
+
+nav h1{
+    height: 25px;
+    width: 99px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--basic-white);
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
 
 .header-insta-content a{
     padding-left: 10px;
     width: 85px;
     height: 19px;
+    color: var(--basic-white);
 }
 
 .header-content img{
@@ -51,42 +69,115 @@ header{
     width: 30px;
 }
 
-header h1{
-    height: 25px;
-    width: 99px;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.container{
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-
-}
-
 #get-to-know-us{
     background-color: var(--main-blue);
+    Width: 1200px;
+    Height: 418px;
 }
 
 #get-to-know-us h2{
-    color: #ffff;
-}
-
-#get-to-know-us h2{
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    width: 357px;
-    height: 44px;
     padding-top: 20px;
-
+    color: var(--basic-white);
+    padding-bottom: 40px;
 }
 
-.fitness{
+.get-to-know-us-content{
     background-color: var(--light-grey);
-    width: 960px;
     height: 127px;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 0px 20px;
 }
 
+.get-to-know-us-content h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.get-to-know-us-content p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#categories{
+    background-color: var(--basic-white);
+    Width: 1200px;
+    Height: 880px;
+    padding: 20px 0px;
+}
+
+#categories h2{
+    color:var(--main-red);
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    
+}
+
+.categories-content{
+    background-color: var(--main-blue);
+    border-radius: 8px;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+
+.categories-content h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--basic-white);
+    padding-bottom: 20px;
+}
+
+.categories-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--basic-white);
+}
+
+footer{
+    background-color: var(--main-black);
+    height: 262px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-insta-content{
+    display: flex;
+    align-items: center;
+}
+
+.footer-insta-content a{
+    color: var(--basic-white);
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.footer-twiter-content{
+    display: flex;
+    align-items: center;
+}
+
+.footer-twiter-content a{
+    color: var(--basic-white);
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.Rights-and-Address{
+    color:var(--basic-white);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
